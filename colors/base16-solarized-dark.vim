@@ -245,7 +245,7 @@ call <sid>hi("gitcommitSelectedFile",   s:gui0B, "", s:cterm0B, "", "bold", "")
 call <sid>hi("GitGutterAdd",     s:gui0B, s:gui00, s:cterm0B, s:cterm00, "", "")
 call <sid>hi("GitGutterChange",  s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
 call <sid>hi("GitGutterDelete",  s:gui08, s:gui00, s:cterm08, s:cterm00, "", "")
-call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm00, "", "")
+call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui00, s:cterm0E, s:cterm00, "", "")
 
 " HTML highlighting
 call <sid>hi("htmlBold",    s:gui0A, "", s:cterm0A, "", "", "")
@@ -292,7 +292,7 @@ call <sid>hi("markdownHeadingDelimiter",  s:gui0D, "", s:cterm0D, "", "", "")
 
 " NERDTree highlighting
 call <sid>hi("NERDTreeDirSlash",  s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("NERDTreeExecFile",  s:gui05, "", s:cterm0B, "", "", "")
+call <sid>hi("NERDTreeExecFile",  s:gui0B, "", s:cterm0B, "", "", "")
 
 " PHP highlighting
 call <sid>hi("phpMemberSelector",  s:gui05, "", s:cterm05, "", "", "")
